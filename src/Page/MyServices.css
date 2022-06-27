@@ -1,0 +1,93 @@
+.MyServices-Container {
+  position: relative;
+  width: 100%;
+  background-color: #117683;
+}
+
+.MyServices-Title {
+  position: relative;
+  font-family: "Carter One", cursive;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 45px;
+  top: 0%;
+}
+
+.Card-Container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-bottom: 300px;
+  padding-top: 100px;
+}
+
+.Card-Container .Card {
+  background-color: #fff;
+  height: 600px;
+  width: 400px;
+  margin: 15px;
+  display: inline-block;
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  transition: all 400ms;
+}
+
+.Card-Container .Card:hover {
+  transform: scale(1.03);
+}
+
+.Card-title {
+  color: #000;
+  font-size: 25px;
+  font-family: "Carter One", cursive;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.Card-Icon {
+  position: relative;
+  padding: 10px;
+  height: 40%;
+  width: 70%;
+}
+
+.Card-Icon img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.Card-paragraph {
+  position: relative;
+  height: 30%;
+  width: 90%;
+  background-color: #fff;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Card-Button {
+  position: relative;
+  color: #fff;
+  background-color: #000;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Carter One", cursive;
+  font-size: 15px;
+}
+
+.Card-Button:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 3px solid #000;
+}

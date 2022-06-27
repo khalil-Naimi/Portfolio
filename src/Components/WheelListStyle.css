@@ -1,0 +1,22 @@
+.WheelList-container {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  position: relative;
+  transition: 5s;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.WheelList-container div {
+  background-color: brown;
+  height: 50%;
+  width: 800px;
+  clip-path: polygon(0 0, 100% 0, 60% 100%, 40% 100%);
+  transform: translateX(-50%);
+  transform-origin: bottom;
+  position: absolute;
+  left: 50%;
+}

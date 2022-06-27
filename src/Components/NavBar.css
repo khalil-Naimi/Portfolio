@@ -1,0 +1,95 @@
+.NavBar {
+  background-color: #00000000;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  transition: all 500ms;
+}
+.NavBar-Brand {
+  border: 3px solid #dd8c04;
+  border-radius: 12px;
+  padding: 0px 5px;
+}
+.NavBar-Brand:hover {
+  border: 2px solid #f4eded;
+}
+.NavBar-Brand:hover .brand {
+  color: #dd8c04;
+}
+
+.NavBar-Brand .text,
+.brand {
+  font-family: "Permanent Marker", cursive;
+  text-decoration: none;
+  color: #dd8c04;
+  font-size: 35px;
+  transition: all 500ms linear;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.NavBar-Brand span {
+  color: #f4eded;
+}
+.NavBar-List {
+  display: flex;
+}
+
+.NavBar-items {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.NavBar-Link {
+  color: #f4eded;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.NavBar-Link::after {
+  content: " ";
+  background-color: #dd8c04;
+  height: 3px;
+  width: 0%;
+  position: relative;
+  display: block;
+  transition: all 400ms linear;
+}
+
+.NavBar-items:hover .NavBar-Link::after {
+  width: 100%;
+}
+
+/*-----------------------------------------------------------------------*/
+.Dark {
+  background-color: #000000c9 !important;
+  position: fixed;
+}
+.Dark .NavBar-Brand span {
+  color: #f4eded;
+}
+.Dark .NavBar-Brand .text {
+  color: #dd8c04;
+}
+.Dark .NavBar-Link {
+  color: #fff;
+}
+.Dark .NavBar-Brand {
+  border: 3px solid #dd8c04;
+}
+.Dark .NavBar-Brand:hover span {
+  color: #dd8c04;
+}
+.Dark .NavBar-Brand:hover {
+  border: 2px solid #fff;
+}
+.Dark .NavBar-Link::after {
+  background-color: #dd8c04;
+}
+/*-----------------------------------------------------------------------*/

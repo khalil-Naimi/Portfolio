@@ -1,0 +1,36 @@
+.ContactMe-Container
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #F4EDED;
+
+}
+
+.ContactMe-Title
+{
+    position: relative;
+    font-family: 'Carter One', cursive;
+    color:#0a0a0a;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+    top: 3%;
+}
+.ContactMe-Form
+{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    height: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+
+}
+.button 
+{
+    margin-top: 24px;
+    margin-left: 8px;
+    color: rgb(209, 26, 26);
+    background-color: #19d150 !important;
+}
